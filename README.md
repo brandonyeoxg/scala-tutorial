@@ -1,2 +1,2 @@
-##Concepts that I am not clear with##
-[] Implicit Class
+## Concepts that I am not clear with
+[ ] Implicit Class
