@@ -1,4 +1,5 @@
 import java.io._
+import Run._
 
 class Point(val xc : Int, val yc: Int) {
     var x : Int = xc
@@ -29,5 +30,7 @@ object Main {
         val loc = new Location(10, 20, 15)
         
         loc.move(10, 10, 5);
+        
+        4 times println("Hello")
     }
 }
