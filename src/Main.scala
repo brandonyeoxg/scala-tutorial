@@ -30,7 +30,11 @@ object Main {
         val loc = new Location(10, 20, 15)
         
         loc.move(10, 10, 5);
-        
+        printPoint
         4 times println("Hello")
+        
+        def printPoint {
+            println("Point x location : " + loc.x + "\nPoint y location : " + loc.y) 
+        }
     }
 }
